@@ -15,5 +15,28 @@
     justify-content: center;
 }
 u{
-  text-decoration: none !important;
+  text-decoration: none ;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+input[type="checkbox"],p{
+  margin: 15px;
+  padding: 10px;
+
+}
+p{
+  margin-left:50px ;
+}
+.row{
+  max-width: 50%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
